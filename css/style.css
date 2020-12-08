@@ -1,0 +1,505 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    color: black;
+}
+
+#first {
+    height: 700px;
+    background: url(../img/first.png) no-repeat center top / cover;
+    color: #fff;
+}
+
+.container {
+    width: 1170px;
+	margin: 0px auto;
+}
+
+header {
+    padding-top: 50px;
+    margin: 0px auto;
+}
+
+.solutions {
+    float: right;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#fff;
+}
+
+.solutions:hover{
+    color: #d2d2d2;
+}
+
+.products {
+    float: right;
+    font-size: 23px;
+    font-weight: bold;    
+    text-decoration: none;
+    margin-right: 25px;
+    color:#fff;
+}
+
+.products:hover{
+    color: #d2d2d2;
+}
+
+.portfolio {
+    float: right;
+    font-size: 23px;
+    font-weight: bold;    
+    text-decoration: none; 
+    margin-right: 25px; 
+    color:#fff;
+}
+.portfolio:hover{
+    color: #d2d2d2;
+}
+
+.contact {
+    float: right;
+    font-size: 23px;
+    font-weight: bold;    
+    text-decoration: none;
+    margin-right: 25px;
+    color:#fff;
+}
+.contact:hover{
+    color: #d2d2d2;
+}
+
+.logo {
+    color: #fff;
+    font-size: 50px;
+    width: 20px;
+    height: 75px;
+    font-weight: 400; 
+    opacity: 0.9;
+    margin-left: 100px;
+}
+
+.logo span {
+    font-style: italic;
+}
+
+.banner {
+    display: flex;
+}
+
+.image {
+    float: center;
+    margin-top: 250px;
+    border-radius: 3%;
+    width: 400px;
+    display: block;
+    margin-left: 180px;
+    opacity: 0.80;
+    text-align: center;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: left;
+    font-family: "Segoe WPN - Semibold";
+    font-size: 55px;
+    font-weight: 400;
+    font-weight: bold;
+    width: 300px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left: 100px;
+} 
+
+.banner-text span {
+    font-family: "Segoe WPN - Light";
+    font-weight: 200;  
+    opacity: 0.9; 
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.42;
+    font-size: 20px;
+    font-weight: bold;
+    width: 138px;
+    height: 30px;
+    margin-left: -300px;
+    margin-top: 450px;
+    background-color: #12b367;
+    border: 4px solid rgba(0, 0, 0, 0.37);
+}
+
+.button:hover {
+   color: #d2d2d2;
+}
+
+#tabs {
+    height: 280px;
+}
+
+.tabs-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.rw {
+    padding: 5px 60px;
+}
+
+.rw:hover {
+    background-color: #dbd9d9;
+}
+
+.button_rw {
+    text-decoration: none;
+    text-align: center;
+    color: #302f2f;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ecw {
+    padding: 5px 60px;
+}
+
+.ecw:hover {
+    background-color: #dbd9d9;
+}
+
+.button_ecw {
+    text-decoration: none;
+    text-align: center;
+    color: #302f2f;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dbw {
+    padding: 5px 60px;
+}
+
+.dbw:hover {
+    background-color: #dbd9d9;
+}
+
+.button_dbw {
+    text-decoration: none;
+    text-align: center;
+    color: #302f2f;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbw {
+    padding: 5px 60px;
+}
+
+.sbw:hover {
+    background-color: #dbd9d9;
+}
+
+.button_sbw {
+    text-decoration: none;
+    text-align: center;
+    color: #302f2f;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+}
+    
+#about {
+    height: 600px;
+}
+
+.about-image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;  
+}
+
+.about-image_ipad {
+    width: 657px;
+    height: 304px
+}
+
+.about-text_caption {
+    width: 552px;
+    height: 39px;
+    color: #4f4f4f;
+    font-family: "Segoe WPN";
+    font-size: 39px;
+    font-weight: 300;
+    text-align: center;  
+    padding: 0px 186px;
+}
+
+.about-text_main {
+    padding: 0px 186px;
+    color: #818181;
+    font-family: "Univers CE";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+#statistics {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.statistics-container_image {
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.statistics-container_caption {
+    margin: -310px 30px 0px 560px;
+    color: #4f4f4f;
+    font-family: "Segoe WPN";
+    font-size: 33px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.statistics-container_list {
+    color: #8a8888;
+    font-family: "Univers CE";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: left;
+    margin-left: 540px;
+    list-style: url(../img/Galochka.png);
+}
+
+#form {
+    height: 200px;
+}
+
+.container-form{
+    margin: 0px auto;
+    background-color: #e67624;
+    width: 450px;
+    float: left;
+    padding: 0px 0px 20px 20px;
+    margin-left: 57px;
+    margin-top: 50px;
+}
+
+.form-container_caption {
+    color: #fff;
+    font-family: "Segoe WP";
+}
+
+.username {
+    border-radius: 3px;
+    height: 26px;
+    border: 0px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 155px;
+}
+
+.form-container_button {
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 90px;
+    height: 25px;
+    background-color: #444444;
+    color: #fff;
+}
+
+.container-formtwo {
+    margin: 0px auto;
+    background-color: #01d4f3;
+    width: 400px;
+    float: left;
+    padding: 0px 0px 20px 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+    height: 87px;
+}
+
+.container-formtwo_caption {
+    text-align: left;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    width: 403px;
+    font-weight: bold;
+}
+
+.subs {
+    width: 265px;
+    height: 26px;
+    border-radius: 3px;
+    border: 0px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.emailadd {
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 90px;
+    height: 26px;
+    background-color: #444444;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+#footer {
+    background-color: black;
+    height: 210px;
+    color: white;
+    display: flex;
+}
+
+.section-one{
+    width: 140px;
+    margin-left: 177px;
+}
+
+.section-one_caption {
+    height: 18px;
+    font-family: "Segoe WP";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: left;
+}
+
+.section-one_links {
+    height: 120px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.au {
+    text-decoration: none;
+    color: white;
+}
+
+.wu {
+    text-decoration: none;
+    color: white;
+}
+
+.cs {
+    text-decoration: none;
+    color: white;
+}
+
+.pr {
+    text-decoration: none;
+    color: white;
+}
+
+.prel {
+    text-decoration: none;
+    color: white;
+}
+
+.cu {
+    text-decoration: none;
+    color: white;
+}
+
+.section-two{
+    width: 140px;
+    margin-left: 127px;
+}
+
+.section-two_caption {
+    height: 18px;
+    font-family: "Segoe WP";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: left;
+}
+
+.section-two_links {
+    height: 120px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.section-three {
+    width: 316px;
+    margin-left: 147px;
+}
+
+.section-three_caption {
+    width: 123px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: left;
+}
+
+.section-three_text {
+    width: 316px;
+    height: 79px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.section-three_owner {
+    width: 141px;
+    height: 35px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.section-four {
+    color: #fff;
+    font-size: 55px;
+    width: 20px;
+    height: 75px;
+    font-weight: 400; 
+    opacity: 0.7;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.section-four span {
+    font-style: italic;
+}
